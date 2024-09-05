@@ -1,0 +1,927 @@
+{
+    "best_flights": [
+        {
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CX.png",
+            "carbon_emissions": {
+                "difference_percent": 0,
+                "this_flight": 286000,
+                "typical_for_this_route": 285000
+            },
+            "departure_token": "WyJDalJJWTNkb1gzZDVUVFpUY0hkQlFrVXRXVkZDUnkwdExTMHRMUzB0TFhscGNXb3hNa0ZCUVVGQlIySmFTRWN3UW10R1JubEJFZ3REV0RrM00zeERXRFV3TUJvS0NQNHBFQUFhQTBOT1dUZ2NjTFRQQkE9PSIsW1siWE1OIiwiMjAyNC0wOS0zMCIsIkhLRyIsbnVsbCwiQ1giLCI5NzMiXSxbIkhLRyIsIjIwMjQtMDktMzAiLCJOUlQiLG51bGwsIkNYIiwiNTAwIl1dXQ==",
+            "flights": [
+                {
+                    "airline": "国泰航空",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CX.png",
+                    "airplane": "Airbus A330",
+                    "arrival_airport": {
+                        "id": "HKG",
+                        "name": "香港國際機場",
+                        "time": "2024-09-30 14:00"
+                    },
+                    "departure_airport": {
+                        "id": "XMN",
+                        "name": "厦门市高崎国际机场",
+                        "time": "2024-09-30 12:15"
+                    },
+                    "duration": 105,
+                    "extensions": [
+                        "Above average legroom (81厘米)",
+                        "In-seat power outlet",
+                        "On-demand video",
+                        "Carbon emissions estimate: 68 kg"
+                    ],
+                    "flight_number": "CX 973",
+                    "legroom": "81厘米",
+                    "often_delayed_by_over_30_min": true,
+                    "travel_class": "Economy"
+                },
+                {
+                    "airline": "国泰航空",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CX.png",
+                    "airplane": "Airbus A350",
+                    "arrival_airport": {
+                        "id": "NRT",
+                        "name": "成田国际机场",
+                        "time": "2024-09-30 20:35"
+                    },
+                    "departure_airport": {
+                        "id": "HKG",
+                        "name": "香港國際機場",
+                        "time": "2024-09-30 15:10"
+                    },
+                    "duration": 265,
+                    "extensions": [
+                        "Above average legroom (81厘米)",
+                        "Wi-Fi for a fee",
+                        "In-seat power \u0026 USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 217 kg"
+                    ],
+                    "flight_number": "CX 500",
+                    "legroom": "81厘米",
+                    "travel_class": "Economy"
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 70,
+                    "id": "HKG",
+                    "name": "香港國際機場"
+                }
+            ],
+            "price": 5374,
+            "total_duration": 440,
+            "type": "Round trip"
+        },
+        {
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CX.png",
+            "carbon_emissions": {
+                "difference_percent": -1,
+                "this_flight": 282000,
+                "typical_for_this_route": 285000
+            },
+            "departure_token": "WyJDalJJWTNkb1gzZDVUVFpUY0hkQlFrVXRXVkZDUnkwdExTMHRMUzB0TFhscGNXb3hNa0ZCUVVGQlIySmFTRWN3UW10R1JubEJFZ3REV0RrM09YeERXRFV5TkJvS0NQNHBFQUFhQTBOT1dUZ2NjTFRQQkE9PSIsW1siWE1OIiwiMjAyNC0wOS0zMCIsIkhLRyIsbnVsbCwiQ1giLCI5NzkiXSxbIkhLRyIsIjIwMjQtMTAtMDEiLCJOUlQiLG51bGwsIkNYIiwiNTI0Il1dXQ==",
+            "flights": [
+                {
+                    "airline": "国泰航空",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CX.png",
+                    "airplane": "Airbus A321neo",
+                    "arrival_airport": {
+                        "id": "HKG",
+                        "name": "香港國際機場",
+                        "time": "2024-09-30 22:10"
+                    },
+                    "departure_airport": {
+                        "id": "XMN",
+                        "name": "厦门市高崎国际机场",
+                        "time": "2024-09-30 20:25"
+                    },
+                    "duration": 105,
+                    "extensions": [
+                        "Average legroom (76厘米)",
+                        "Wi-Fi for a fee",
+                        "In-seat USB outlet",
+                        "On-demand video",
+                        "Carbon emissions estimate: 61 kg"
+                    ],
+                    "flight_number": "CX 979",
+                    "legroom": "76厘米",
+                    "often_delayed_by_over_30_min": true,
+                    "travel_class": "Economy"
+                },
+                {
+                    "airline": "国泰航空",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CX.png",
+                    "airplane": "Airbus A350",
+                    "arrival_airport": {
+                        "id": "NRT",
+                        "name": "成田国际机场",
+                        "time": "2024-10-01 06:45"
+                    },
+                    "departure_airport": {
+                        "id": "HKG",
+                        "name": "香港國際機場",
+                        "time": "2024-10-01 01:20"
+                    },
+                    "duration": 265,
+                    "extensions": [
+                        "Above average legroom (81厘米)",
+                        "Wi-Fi for a fee",
+                        "In-seat power \u0026 USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 220 kg"
+                    ],
+                    "flight_number": "CX 524",
+                    "legroom": "81厘米",
+                    "overnight": true,
+                    "travel_class": "Economy"
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 190,
+                    "id": "HKG",
+                    "name": "香港國際機場"
+                }
+            ],
+            "price": 5374,
+            "total_duration": 560,
+            "type": "Round trip"
+        }
+    ],
+    "other_flights": [
+        {
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/PR.png",
+            "carbon_emissions": {
+                "difference_percent": 29,
+                "this_flight": 368000,
+                "typical_for_this_route": 285000
+            },
+            "departure_token": "WyJDalJJWTNkb1gzZDVUVFpUY0hkQlFrVXRXVkZDUnkwdExTMHRMUzB0TFhscGNXb3hNa0ZCUVVGQlIySmFTRWN3UW10R1JubEJFZ3RRVWpNek5YeFFValF5T0JvS0NOSWRFQUFhQTBOT1dUZ2NjTU9oQXc9PSIsW1siWE1OIiwiMjAyNC0wOS0zMCIsIk1OTCIsbnVsbCwiUFIiLCIzMzUiXSxbIk1OTCIsIjIwMjQtMTAtMDEiLCJOUlQiLG51bGwsIlBSIiwiNDI4Il1dXQ==",
+            "flights": [
+                {
+                    "airline": "菲航",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/PR.png",
+                    "airplane": "Airbus A321",
+                    "arrival_airport": {
+                        "id": "MNL",
+                        "name": "尼诺伊·阿基诺国际机场",
+                        "time": "2024-09-30 14:00"
+                    },
+                    "departure_airport": {
+                        "id": "XMN",
+                        "name": "厦门市高崎国际机场",
+                        "time": "2024-09-30 11:00"
+                    },
+                    "duration": 180,
+                    "extensions": [
+                        "Average legroom (76厘米)",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 119 kg"
+                    ],
+                    "flight_number": "PR 335",
+                    "legroom": "76厘米",
+                    "travel_class": "Economy"
+                },
+                {
+                    "airline": "菲航",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/PR.png",
+                    "airplane": "Airbus A330",
+                    "arrival_airport": {
+                        "id": "NRT",
+                        "name": "成田国际机场",
+                        "time": "2024-10-01 13:00"
+                    },
+                    "departure_airport": {
+                        "id": "MNL",
+                        "name": "尼诺伊·阿基诺国际机场",
+                        "time": "2024-10-01 07:30"
+                    },
+                    "duration": 270,
+                    "extensions": [
+                        "Above average legroom (81厘米)",
+                        "Wi-Fi for a fee",
+                        "In-seat USB outlet",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 247 kg"
+                    ],
+                    "flight_number": "PR 428",
+                    "legroom": "81厘米",
+                    "travel_class": "Economy"
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 1050,
+                    "id": "MNL",
+                    "name": "尼诺伊·阿基诺国际机场",
+                    "overnight": true
+                }
+            ],
+            "price": 3794,
+            "total_duration": 1500,
+            "type": "Round trip"
+        },
+        {
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+            "carbon_emissions": {
+                "difference_percent": 47,
+                "this_flight": 420000,
+                "typical_for_this_route": 285000
+            },
+            "departure_token": "WyJDalJJWTNkb1gzZDVUVFpUY0hkQlFrVXRXVkZDUnkwdExTMHRMUzB0TFhscGNXb3hNa0ZCUVVGQlIySmFTRWN3UW10R1JubEJFaEpOUmpnMk9ERjhRbEk0TXpSOFFsSXhNRGdhQ2dqZ0pCQUFHZ05EVGxrNEhIRFdoUVE9IixbWyJYTU4iLCIyMDI0LTA5LTMwIiwiTUZNIixudWxsLCJNRiIsIjg2ODEiXSxbIk1GTSIsIjIwMjQtMDktMzAiLCJLSEgiLG51bGwsIkJSIiwiODM0Il0sWyJLSEgiLCIyMDI0LTEwLTAxIiwiTlJUIixudWxsLCJCUiIsIjEwOCJdXV0=",
+            "flights": [
+                {
+                    "airline": "厦航",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MF.png",
+                    "airplane": "Boeing 737",
+                    "arrival_airport": {
+                        "id": "MFM",
+                        "name": "澳门国际机场",
+                        "time": "2024-09-30 14:30"
+                    },
+                    "departure_airport": {
+                        "id": "XMN",
+                        "name": "厦门市高崎国际机场",
+                        "time": "2024-09-30 12:55"
+                    },
+                    "duration": 95,
+                    "extensions": [
+                        "Average legroom (79厘米)",
+                        "Carbon emissions estimate: 74 kg"
+                    ],
+                    "flight_number": "MF 8681",
+                    "legroom": "79厘米",
+                    "travel_class": "Economy"
+                },
+                {
+                    "airline": "长荣航空",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/BR.png",
+                    "airplane": "Airbus A321",
+                    "arrival_airport": {
+                        "id": "KHH",
+                        "name": "小港國際機場",
+                        "time": "2024-09-30 21:30"
+                    },
+                    "departure_airport": {
+                        "id": "MFM",
+                        "name": "澳门国际机场",
+                        "time": "2024-09-30 20:00"
+                    },
+                    "duration": 90,
+                    "extensions": [
+                        "Average legroom (79厘米)",
+                        "Carbon emissions estimate: 99 kg"
+                    ],
+                    "flight_number": "BR 834",
+                    "legroom": "79厘米",
+                    "travel_class": "Economy"
+                },
+                {
+                    "airline": "长荣航空",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/BR.png",
+                    "airplane": "Airbus A321",
+                    "arrival_airport": {
+                        "id": "NRT",
+                        "name": "成田国际机场",
+                        "time": "2024-10-01 11:45"
+                    },
+                    "departure_airport": {
+                        "id": "KHH",
+                        "name": "小港國際機場",
+                        "time": "2024-10-01 07:00"
+                    },
+                    "duration": 225,
+                    "extensions": [
+                        "Average legroom (79厘米)",
+                        "Carbon emissions estimate: 247 kg"
+                    ],
+                    "flight_number": "BR 108",
+                    "legroom": "79厘米",
+                    "travel_class": "Economy"
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 330,
+                    "id": "MFM",
+                    "name": "澳门国际机场"
+                },
+                {
+                    "duration": 570,
+                    "id": "KHH",
+                    "name": "小港國際機場",
+                    "overnight": true
+                }
+            ],
+            "price": 4704,
+            "total_duration": 1310,
+            "type": "Round trip"
+        },
+        {
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CX.png",
+            "carbon_emissions": {
+                "difference_percent": -1,
+                "this_flight": 282000,
+                "typical_for_this_route": 285000
+            },
+            "departure_token": "WyJDalJJWTNkb1gzZDVUVFpUY0hkQlFrVXRXVkZDUnkwdExTMHRMUzB0TFhscGNXb3hNa0ZCUVVGQlIySmFTRWN3UW10R1JubEJFZ3REV0RrM09YeERXRFV5TmhvS0NNZ25FQUFhQTBOT1dUZ2NjS1d0QkE9PSIsW1siWE1OIiwiMjAyNC0wOS0zMCIsIkhLRyIsbnVsbCwiQ1giLCI5NzkiXSxbIkhLRyIsIjIwMjQtMTAtMDEiLCJOUlQiLG51bGwsIkNYIiwiNTI2Il1dXQ==",
+            "flights": [
+                {
+                    "airline": "国泰航空",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CX.png",
+                    "airplane": "Airbus A321neo",
+                    "arrival_airport": {
+                        "id": "HKG",
+                        "name": "香港國際機場",
+                        "time": "2024-09-30 22:10"
+                    },
+                    "departure_airport": {
+                        "id": "XMN",
+                        "name": "厦门市高崎国际机场",
+                        "time": "2024-09-30 20:25"
+                    },
+                    "duration": 105,
+                    "extensions": [
+                        "Average legroom (76厘米)",
+                        "Wi-Fi for a fee",
+                        "In-seat USB outlet",
+                        "On-demand video",
+                        "Carbon emissions estimate: 61 kg"
+                    ],
+                    "flight_number": "CX 979",
+                    "legroom": "76厘米",
+                    "often_delayed_by_over_30_min": true,
+                    "travel_class": "Economy"
+                },
+                {
+                    "airline": "国泰航空",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CX.png",
+                    "airplane": "Airbus A350",
+                    "arrival_airport": {
+                        "id": "NRT",
+                        "name": "成田国际机场",
+                        "time": "2024-10-01 13:40"
+                    },
+                    "departure_airport": {
+                        "id": "HKG",
+                        "name": "香港國際機場",
+                        "time": "2024-10-01 08:15"
+                    },
+                    "duration": 265,
+                    "extensions": [
+                        "Above average legroom (81厘米)",
+                        "Wi-Fi for a fee",
+                        "In-seat power \u0026 USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 220 kg"
+                    ],
+                    "flight_number": "CX 526",
+                    "legroom": "81厘米",
+                    "often_delayed_by_over_30_min": true,
+                    "travel_class": "Economy"
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 605,
+                    "id": "HKG",
+                    "name": "香港國際機場",
+                    "overnight": true
+                }
+            ],
+            "price": 5064,
+            "total_duration": 975,
+            "type": "Round trip"
+        },
+        {
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MU.png",
+            "carbon_emissions": {
+                "difference_percent": -3,
+                "this_flight": 277000,
+                "typical_for_this_route": 285000
+            },
+            "departure_token": "WyJDalJJWTNkb1gzZDVUVFpUY0hkQlFrVXRXVkZDUnkwdExTMHRMUzB0TFhscGNXb3hNa0ZCUVVGQlIySmFTRWN3UW10R1JubEJFZ3hOVlRVeU5EWjhUVlUxTWpFYUNnajBMeEFBR2dORFRsazRISERwb2dVPSIsW1siWE1OIiwiMjAyNC0wOS0zMCIsIlBWRyIsbnVsbCwiTVUiLCI1MjQ2Il0sWyJQVkciLCIyMDI0LTA5LTMwIiwiTlJUIixudWxsLCJNVSIsIjUyMSJdXV0=",
+            "flights": [
+                {
+                    "airline": "东航",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MU.png",
+                    "airplane": "Airbus A319",
+                    "arrival_airport": {
+                        "id": "PVG",
+                        "name": "上海浦东国际机场",
+                        "time": "2024-09-30 10:15"
+                    },
+                    "departure_airport": {
+                        "id": "XMN",
+                        "name": "厦门市高崎国际机场",
+                        "time": "2024-09-30 08:20"
+                    },
+                    "duration": 115,
+                    "extensions": [
+                        "Average legroom (79厘米)",
+                        "Carbon emissions estimate: 126 kg"
+                    ],
+                    "flight_number": "MU 5246",
+                    "legroom": "79厘米",
+                    "travel_class": "Economy"
+                },
+                {
+                    "airline": "东航",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MU.png",
+                    "airplane": "Airbus A350",
+                    "arrival_airport": {
+                        "id": "NRT",
+                        "name": "成田国际机场",
+                        "time": "2024-09-30 15:55"
+                    },
+                    "departure_airport": {
+                        "id": "PVG",
+                        "name": "上海浦东国际机场",
+                        "time": "2024-09-30 11:40"
+                    },
+                    "duration": 195,
+                    "extensions": [
+                        "Average legroom (79厘米)",
+                        "Wi-Fi for a fee",
+                        "In-seat USB outlet",
+                        "On-demand video",
+                        "Carbon emissions estimate: 150 kg"
+                    ],
+                    "flight_number": "MU 521",
+                    "legroom": "79厘米",
+                    "often_delayed_by_over_30_min": true,
+                    "travel_class": "Economy"
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 85,
+                    "id": "PVG",
+                    "name": "上海浦东国际机场"
+                }
+            ],
+            "price": 6132,
+            "total_duration": 395,
+            "type": "Round trip"
+        },
+        {
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+            "carbon_emissions": {
+                "difference_percent": 45,
+                "this_flight": 412000,
+                "typical_for_this_route": 285000
+            },
+            "departure_token": "WyJDalJJWTNkb1gzZDVUVFpUY0hkQlFrVXRXVkZDUnkwdExTMHRMUzB0TFhscGNXb3hNa0ZCUVVGQlIySmFTRWN3UW10R1JubEJFZ3REV0RrM09YeEtURGN6TmhvS0NNd3pFQUFhQTBOT1dUZ2NjT0xXQlE9PSIsW1siWE1OIiwiMjAyNC0wOS0zMCIsIkhLRyIsbnVsbCwiQ1giLCI5NzkiXSxbIkhLRyIsIjIwMjQtMTAtMDEiLCJOUlQiLG51bGwsIkpMIiwiNzM2Il1dXQ==",
+            "flights": [
+                {
+                    "airline": "国泰航空",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CX.png",
+                    "airplane": "Airbus A321neo",
+                    "arrival_airport": {
+                        "id": "HKG",
+                        "name": "香港國際機場",
+                        "time": "2024-09-30 22:10"
+                    },
+                    "departure_airport": {
+                        "id": "XMN",
+                        "name": "厦门市高崎国际机场",
+                        "time": "2024-09-30 20:25"
+                    },
+                    "duration": 105,
+                    "extensions": [
+                        "Average legroom (76厘米)",
+                        "Wi-Fi for a fee",
+                        "In-seat USB outlet",
+                        "On-demand video",
+                        "Carbon emissions estimate: 61 kg"
+                    ],
+                    "flight_number": "CX 979",
+                    "legroom": "76厘米",
+                    "often_delayed_by_over_30_min": true,
+                    "travel_class": "Economy"
+                },
+                {
+                    "airline": "日航",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/JL.png",
+                    "airplane": "Boeing 767",
+                    "arrival_airport": {
+                        "id": "NRT",
+                        "name": "成田国际机场",
+                        "time": "2024-10-01 16:05"
+                    },
+                    "departure_airport": {
+                        "id": "HKG",
+                        "name": "香港國際機場",
+                        "time": "2024-10-01 10:40"
+                    },
+                    "duration": 265,
+                    "extensions": [
+                        "Above average legroom (84厘米)",
+                        "Wi-Fi for a fee",
+                        "In-seat power \u0026 USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 349 kg"
+                    ],
+                    "flight_number": "JL 736",
+                    "legroom": "84厘米",
+                    "often_delayed_by_over_30_min": true,
+                    "ticket_also_sold_by": [
+                        "国泰航空"
+                    ],
+                    "travel_class": "Economy"
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 750,
+                    "id": "HKG",
+                    "name": "香港國際機場",
+                    "overnight": true
+                }
+            ],
+            "price": 6604,
+            "total_duration": 1120,
+            "type": "Round trip"
+        },
+        {
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MF.png",
+            "carbon_emissions": {
+                "difference_percent": -25,
+                "this_flight": 214000,
+                "typical_for_this_route": 285000
+            },
+            "departure_token": "WyJDalJJWTNkb1gzZDVUVFpUY0hkQlFrVXRXVkZDUnkwdExTMHRMUzB0TFhscGNXb3hNa0ZCUVVGQlIySmFTRWN3UW10R1JubEJFZ1ZOUmpneE5Sb0tDSlpCRUFBYUEwTk9XVGdjY0lTV0J3PT0iLFtbIlhNTiIsIjIwMjQtMDktMzAiLCJOUlQiLG51bGwsIk1GIiwiODE1Il1dXQ==",
+            "flights": [
+                {
+                    "airline": "厦航",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MF.png",
+                    "airplane": "Boeing 737",
+                    "arrival_airport": {
+                        "id": "NRT",
+                        "name": "成田国际机场",
+                        "time": "2024-09-30 13:45"
+                    },
+                    "departure_airport": {
+                        "id": "XMN",
+                        "name": "厦门市高崎国际机场",
+                        "time": "2024-09-30 08:30"
+                    },
+                    "duration": 255,
+                    "extensions": [
+                        "Average legroom (79厘米)",
+                        "Carbon emissions estimate: 214 kg"
+                    ],
+                    "flight_number": "MF 815",
+                    "legroom": "79厘米",
+                    "travel_class": "Economy"
+                }
+            ],
+            "price": 8342,
+            "total_duration": 255,
+            "type": "Round trip"
+        },
+        {
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/HO.png",
+            "carbon_emissions": {
+                "difference_percent": -26,
+                "this_flight": 212000,
+                "typical_for_this_route": 285000
+            },
+            "departure_token": "WyJDalJJWTNkb1gzZDVUVFpUY0hkQlFrVXRXVkZDUnkwdExTMHRMUzB0TFhscGNXb3hNa0ZCUVVGQlIySmFTRWN3UW10R1JubEJFZzFJVHpFeE1EWjhTRTh4TXpneE9Cdz0iLFtbIlhNTiIsIjIwMjQtMDktMzAiLCJQVkciLG51bGwsIkhPIiwiMTEwNiJdLFsiUFZHIiwiMjAyNC0wOS0zMCIsIk5SVCIsbnVsbCwiSE8iLCIxMzgxIl1dXQ==",
+            "flights": [
+                {
+                    "airline": "吉祥航空",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/HO.png",
+                    "airplane": "Airbus A320",
+                    "arrival_airport": {
+                        "id": "PVG",
+                        "name": "上海浦东国际机场",
+                        "time": "2024-09-30 13:30"
+                    },
+                    "departure_airport": {
+                        "id": "XMN",
+                        "name": "厦门市高崎国际机场",
+                        "time": "2024-09-30 11:30"
+                    },
+                    "duration": 120,
+                    "extensions": [
+                        "Average legroom (76厘米)",
+                        "Carbon emissions estimate: 76 kg"
+                    ],
+                    "flight_number": "HO 1106",
+                    "legroom": "76厘米",
+                    "travel_class": "Economy"
+                },
+                {
+                    "airline": "吉祥航空",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/HO.png",
+                    "airplane": "Airbus A320neo",
+                    "arrival_airport": {
+                        "id": "NRT",
+                        "name": "成田国际机场",
+                        "time": "2024-09-30 19:30"
+                    },
+                    "departure_airport": {
+                        "id": "PVG",
+                        "name": "上海浦东国际机场",
+                        "time": "2024-09-30 15:40"
+                    },
+                    "duration": 170,
+                    "extensions": [
+                        "Average legroom (76厘米)",
+                        "In-seat USB outlet",
+                        "Carbon emissions estimate: 135 kg"
+                    ],
+                    "flight_number": "HO 1381",
+                    "legroom": "76厘米",
+                    "travel_class": "Economy"
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 130,
+                    "id": "PVG",
+                    "name": "上海浦东国际机场"
+                }
+            ],
+            "total_duration": 420,
+            "type": "Round trip"
+        }
+    ],
+    "price_insights": {
+        "lowest_price": 3794,
+        "price_history": [
+            [
+                1720281600,
+                4069
+            ],
+            [
+                1720368000,
+                4069
+            ],
+            [
+                1720454400,
+                4069
+            ],
+            [
+                1720540800,
+                4071
+            ],
+            [
+                1720627200,
+                4070
+            ],
+            [
+                1720713600,
+                4069
+            ],
+            [
+                1720800000,
+                4069
+            ],
+            [
+                1720886400,
+                4071
+            ],
+            [
+                1720972800,
+                4071
+            ],
+            [
+                1721059200,
+                4071
+            ],
+            [
+                1721145600,
+                4073
+            ],
+            [
+                1721232000,
+                4073
+            ],
+            [
+                1721318400,
+                4073
+            ],
+            [
+                1721404800,
+                4074
+            ],
+            [
+                1721491200,
+                4075
+            ],
+            [
+                1721577600,
+                4075
+            ],
+            [
+                1721664000,
+                4075
+            ],
+            [
+                1721750400,
+                4075
+            ],
+            [
+                1721836800,
+                4075
+            ],
+            [
+                1721923200,
+                4076
+            ],
+            [
+                1722009600,
+                4077
+            ],
+            [
+                1722096000,
+                4077
+            ],
+            [
+                1722182400,
+                4077
+            ],
+            [
+                1722268800,
+                4077
+            ],
+            [
+                1722355200,
+                4078
+            ],
+            [
+                1722441600,
+                4076
+            ],
+            [
+                1722528000,
+                4076
+            ],
+            [
+                1722614400,
+                4083
+            ],
+            [
+                1722700800,
+                4084
+            ],
+            [
+                1722787200,
+                4084
+            ],
+            [
+                1722873600,
+                4084
+            ],
+            [
+                1722960000,
+                4087
+            ],
+            [
+                1723046400,
+                4085
+            ],
+            [
+                1723132800,
+                4084
+            ],
+            [
+                1723219200,
+                4084
+            ],
+            [
+                1723305600,
+                4085
+            ],
+            [
+                1723392000,
+                4085
+            ],
+            [
+                1723478400,
+                4335
+            ],
+            [
+                1723564800,
+                4334
+            ],
+            [
+                1723651200,
+                4334
+            ],
+            [
+                1723737600,
+                4316
+            ],
+            [
+                1723824000,
+                4156
+            ],
+            [
+                1723910400,
+                4156
+            ],
+            [
+                1723996800,
+                4156
+            ],
+            [
+                1724083200,
+                4156
+            ],
+            [
+                1724169600,
+                4336
+            ],
+            [
+                1724256000,
+                4336
+            ],
+            [
+                1724342400,
+                4336
+            ],
+            [
+                1724428800,
+                4160
+            ],
+            [
+                1724515200,
+                4160
+            ],
+            [
+                1724601600,
+                4337
+            ],
+            [
+                1724688000,
+                4092
+            ],
+            [
+                1724774400,
+                4090
+            ],
+            [
+                1724860800,
+                4162
+            ],
+            [
+                1724947200,
+                4162
+            ],
+            [
+                1725033600,
+                4159
+            ],
+            [
+                1725120000,
+                4127
+            ],
+            [
+                1725206400,
+                4127
+            ],
+            [
+                1725292800,
+                4121
+            ],
+            [
+                1725379200,
+                4121
+            ],
+            [
+                1725465600,
+                3794
+            ]
+        ],
+        "price_level": "typical",
+        "typical_price_range": [
+            2100,
+            4100
+        ]
+    },
+    "search_metadata": {
+        "created_at": "2024-09-05 02:50:19 UTC",
+        "google_flights_url": "https://www.google.com/travel/flights?hl=zh-cn\u0026gl=us\u0026curr=CNY\u0026tfs=CBwQAhoeEgoyMDI0LTA5LTMwagcIARIDWE1OcgcIARIDTlJUGh4SCjIwMjQtMTAtMDdqBwgBEgNOUlRyBwgBEgNYTU5CAQFIAXABmAEB",
+        "id": "66d91c6bcc29877949941cb8",
+        "json_endpoint": "https://serpapi.com/searches/a090a0e5a744f027/66d91c6bcc29877949941cb8.json",
+        "prettify_html_file": "https://serpapi.com/searches/a090a0e5a744f027/66d91c6bcc29877949941cb8.prettify",
+        "processed_at": "2024-09-05 02:50:19 UTC",
+        "raw_html_file": "https://serpapi.com/searches/a090a0e5a744f027/66d91c6bcc29877949941cb8.html",
+        "status": "Success",
+        "total_time_taken": 1.58
+    },
+    "search_parameters": {
+        "arrival_id": "NRT",
+        "currency": "CNY",
+        "departure_id": "XMN",
+        "engine": "google_flights",
+        "gl": "us",
+        "hl": "zh-cn",
+        "outbound_date": "2024-09-30",
+        "return_date": "2024-10-07"
+    }
+}

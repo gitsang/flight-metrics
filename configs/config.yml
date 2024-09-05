@@ -1,0 +1,23 @@
+currency: CNY
+lang: zh-cn
+flights:
+  - cron: '43 * * * *'
+    outboundDate: 2024-09-28
+    returnDate: 2024-10-07
+    departureAirport: "XMN"
+    arrivalAirport: "NRT"
+  - cron: '43 * * * *'
+    outboundDate: 2024-09-29
+    returnDate: 2024-10-07
+    departureAirport: "XMN"
+    arrivalAirport: "NRT"
+  - cron: '43 * * * *'
+    outboundDate: 2024-09-30
+    returnDate: 2024-10-07
+    departureAirport: "XMN"
+    arrivalAirport: "NRT"
+  - cron: '43 * * * *'
+    outboundDate: 2024-10-01
+    returnDate: 2024-10-07
+    departureAirport: "XMN"
+    arrivalAirport: "NRT"

@@ -1,0 +1,590 @@
+{
+  "annotations": {
+    "list": [
+      {
+        "builtIn": 1,
+        "datasource": {
+          "type": "grafana",
+          "uid": "-- Grafana --"
+        },
+        "enable": true,
+        "hide": true,
+        "iconColor": "rgba(0, 211, 255, 1)",
+        "name": "Annotations & Alerts",
+        "type": "dashboard"
+      }
+    ]
+  },
+  "editable": true,
+  "fiscalYearStartMonth": 0,
+  "graphTooltip": 0,
+  "id": 13,
+  "links": [],
+  "panels": [
+    {
+      "datasource": {
+        "type": "prometheus",
+        "uid": "hcTeMm27k"
+      },
+      "description": "",
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
+          "custom": {
+            "align": "auto",
+            "cellOptions": {
+              "type": "auto"
+            },
+            "inspect": false
+          },
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": null
+              },
+              {
+                "color": "yellow",
+                "value": 2000
+              },
+              {
+                "color": "orange",
+                "value": 5000
+              },
+              {
+                "color": "red",
+                "value": 8000
+              }
+            ]
+          }
+        },
+        "overrides": [
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "去程机场"
+            },
+            "properties": [
+              {
+                "id": "custom.width",
+                "value": 80
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "返程机场"
+            },
+            "properties": [
+              {
+                "id": "custom.width",
+                "value": 80
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "去程日期"
+            },
+            "properties": [
+              {
+                "id": "custom.width",
+                "value": 80
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "去程路径"
+            },
+            "properties": [
+              {
+                "id": "custom.width",
+                "value": 80
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "返程日期"
+            },
+            "properties": [
+              {
+                "id": "custom.width",
+                "value": 80
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "去程航司"
+            },
+            "properties": [
+              {
+                "id": "custom.width",
+                "value": 160
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "去程出发时间"
+            },
+            "properties": [
+              {
+                "id": "custom.width",
+                "value": 110
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "去程到达时间"
+            },
+            "properties": [
+              {
+                "id": "custom.width",
+                "value": 110
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "去程总耗时"
+            },
+            "properties": [
+              {
+                "id": "custom.width",
+                "value": 100
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "去程元数据"
+            },
+            "properties": [
+              {
+                "id": "custom.width",
+                "value": 100
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "返程航司"
+            },
+            "properties": [
+              {
+                "id": "custom.width",
+                "value": 160
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "返程出发时间"
+            },
+            "properties": [
+              {
+                "id": "custom.width",
+                "value": 110
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "返程总耗时"
+            },
+            "properties": [
+              {
+                "id": "custom.width",
+                "value": 110
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "返程到达时间"
+            },
+            "properties": [
+              {
+                "id": "custom.width",
+                "value": 110
+              }
+            ]
+          }
+        ]
+      },
+      "gridPos": {
+        "h": 9,
+        "w": 24,
+        "x": 0,
+        "y": 0
+      },
+      "id": 2,
+      "options": {
+        "cellHeight": "sm",
+        "footer": {
+          "countRows": false,
+          "fields": "",
+          "reducer": [
+            "sum"
+          ],
+          "show": false
+        },
+        "showHeader": true,
+        "sortBy": [
+          {
+            "desc": false,
+            "displayName": "价格趋势"
+          }
+        ]
+      },
+      "pluginVersion": "11.0.0-preview",
+      "targets": [
+        {
+          "datasource": {
+            "type": "prometheus",
+            "uid": "hcTeMm27k"
+          },
+          "editorMode": "code",
+          "expr": "flight_google_round_trip{\r\n  departure_airport=~\"$departure_airport\",\r\n  arrival_airport=~\"$arrival_airport\",\r\n  outbound_date=~\"$outbound_date\",\r\n  return_date=~\"$return_date\",\r\n}",
+          "hide": false,
+          "instant": false,
+          "legendFormat": "{{outbound_routes}} - {{return_routes}}",
+          "range": true,
+          "refId": "A"
+        }
+      ],
+      "title": "Flight Price",
+      "transformations": [
+        {
+          "id": "timeSeriesTable",
+          "options": {
+            "A": {
+              "timeField": "Time"
+            }
+          }
+        },
+        {
+          "id": "organize",
+          "options": {
+            "excludeByName": {
+              "__name__": true,
+              "arrival_airport": true,
+              "departure_airport": true,
+              "instance": true,
+              "job": true,
+              "outbound_date": true,
+              "outbound_metadata": true,
+              "outbound_routes": true,
+              "return_date": true,
+              "return_metadata": true
+            },
+            "includeByName": {},
+            "indexByName": {
+              "Trend #A": 17,
+              "__name__": 0,
+              "arrival_airport": 2,
+              "departure_airport": 1,
+              "instance": 3,
+              "job": 4,
+              "outbound_airline_name": 6,
+              "outbound_arrival_time": 9,
+              "outbound_date": 5,
+              "outbound_departure_time": 7,
+              "outbound_duration": 8,
+              "outbound_metadata": 10,
+              "return_airline_name": 12,
+              "return_arrival_time": 15,
+              "return_date": 11,
+              "return_departure_time": 13,
+              "return_duration": 14,
+              "return_metadata": 16
+            },
+            "renameByName": {
+              "Trend #A": "价格趋势",
+              "arrival_airport": "返程机场",
+              "departure_airport": "去程机场",
+              "outbound_airline_name": "去程航司",
+              "outbound_arrival_time": "去程到达时间",
+              "outbound_date": "去程日期",
+              "outbound_departure_time": "去程出发时间",
+              "outbound_duration": "去程总耗时",
+              "outbound_metadata": "去程元数据",
+              "outbound_routes": "",
+              "return_airline_name": "返程航司",
+              "return_arrival_time": "返程到达时间",
+              "return_date": "返程日期",
+              "return_departure_time": "返程出发时间",
+              "return_duration": "返程总耗时",
+              "return_metadata": "返程元数据"
+            }
+          }
+        }
+      ],
+      "type": "table"
+    },
+    {
+      "datasource": {
+        "type": "prometheus",
+        "uid": "hcTeMm27k"
+      },
+      "description": "",
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "palette-classic"
+          },
+          "custom": {
+            "axisBorderShow": false,
+            "axisCenteredZero": false,
+            "axisColorMode": "text",
+            "axisLabel": "CNY",
+            "axisPlacement": "auto",
+            "barAlignment": 0,
+            "drawStyle": "line",
+            "fillOpacity": 0,
+            "gradientMode": "none",
+            "hideFrom": {
+              "legend": false,
+              "tooltip": false,
+              "viz": false
+            },
+            "insertNulls": false,
+            "lineInterpolation": "stepBefore",
+            "lineStyle": {
+              "fill": "solid"
+            },
+            "lineWidth": 1,
+            "pointSize": 5,
+            "scaleDistribution": {
+              "type": "linear"
+            },
+            "showPoints": "auto",
+            "spanNulls": false,
+            "stacking": {
+              "group": "A",
+              "mode": "none"
+            },
+            "thresholdsStyle": {
+              "mode": "dashed+area"
+            }
+          },
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": null
+              },
+              {
+                "color": "yellow",
+                "value": 2000
+              },
+              {
+                "color": "orange",
+                "value": 5000
+              },
+              {
+                "color": "red",
+                "value": 8000
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 11,
+        "w": 24,
+        "x": 0,
+        "y": 9
+      },
+      "id": 1,
+      "options": {
+        "legend": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "displayMode": "table",
+          "placement": "bottom",
+          "showLegend": true,
+          "sortBy": "Last *",
+          "sortDesc": true
+        },
+        "tooltip": {
+          "maxHeight": 600,
+          "mode": "single",
+          "sort": "none"
+        }
+      },
+      "targets": [
+        {
+          "datasource": {
+            "type": "prometheus",
+            "uid": "hcTeMm27k"
+          },
+          "editorMode": "code",
+          "expr": "flight_google_round_trip{\r\n  departure_airport=~\"$departure_airport\",\r\n  arrival_airport=~\"$arrival_airport\",\r\n  outbound_date=~\"$outbound_date\",\r\n  return_date=~\"$return_date\",\r\n}",
+          "hide": false,
+          "instant": false,
+          "legendFormat": "{{outbound_departure_time}} - {{outbound_arrival_time}} ----- {{return_departure_time}} - {{return_arrival_time}}",
+          "range": true,
+          "refId": "A"
+        }
+      ],
+      "title": "Flight Price",
+      "type": "timeseries"
+    }
+  ],
+  "refresh": "",
+  "schemaVersion": 39,
+  "tags": [],
+  "templating": {
+    "list": [
+      {
+        "current": {
+          "selected": false,
+          "text": "XMN",
+          "value": "XMN"
+        },
+        "datasource": {
+          "type": "prometheus",
+          "uid": "hcTeMm27k"
+        },
+        "definition": "label_values(flight_google_round_trip,departure_airport)",
+        "hide": 0,
+        "includeAll": false,
+        "label": "departure_airport",
+        "multi": false,
+        "name": "departure_airport",
+        "options": [],
+        "query": {
+          "qryType": 1,
+          "query": "label_values(flight_google_round_trip,departure_airport)",
+          "refId": "PrometheusVariableQueryEditor-VariableQuery"
+        },
+        "refresh": 1,
+        "regex": "",
+        "skipUrlSync": false,
+        "sort": 0,
+        "type": "query"
+      },
+      {
+        "current": {
+          "selected": false,
+          "text": "NRT",
+          "value": "NRT"
+        },
+        "datasource": {
+          "type": "prometheus",
+          "uid": "hcTeMm27k"
+        },
+        "definition": "label_values(flight_google_round_trip,arrival_airport)",
+        "hide": 0,
+        "includeAll": false,
+        "label": "arrival_airport",
+        "multi": false,
+        "name": "arrival_airport",
+        "options": [],
+        "query": {
+          "qryType": 1,
+          "query": "label_values(flight_google_round_trip,arrival_airport)",
+          "refId": "PrometheusVariableQueryEditor-VariableQuery"
+        },
+        "refresh": 1,
+        "regex": "",
+        "skipUrlSync": false,
+        "sort": 0,
+        "type": "query"
+      },
+      {
+        "current": {
+          "selected": false,
+          "text": "2024-09-28",
+          "value": "2024-09-28"
+        },
+        "datasource": {
+          "type": "prometheus",
+          "uid": "hcTeMm27k"
+        },
+        "definition": "label_values(flight_google_round_trip,outbound_date)",
+        "hide": 0,
+        "includeAll": false,
+        "label": "outbound_date",
+        "multi": false,
+        "name": "outbound_date",
+        "options": [],
+        "query": {
+          "qryType": 1,
+          "query": "label_values(flight_google_round_trip,outbound_date)",
+          "refId": "PrometheusVariableQueryEditor-VariableQuery"
+        },
+        "refresh": 1,
+        "regex": "",
+        "skipUrlSync": false,
+        "sort": 0,
+        "type": "query"
+      },
+      {
+        "current": {
+          "selected": false,
+          "text": "2024-10-07",
+          "value": "2024-10-07"
+        },
+        "datasource": {
+          "type": "prometheus",
+          "uid": "hcTeMm27k"
+        },
+        "definition": "label_values(flight_google_round_trip,return_date)",
+        "hide": 0,
+        "includeAll": false,
+        "label": "return_date",
+        "multi": false,
+        "name": "return_date",
+        "options": [],
+        "query": {
+          "qryType": 1,
+          "query": "label_values(flight_google_round_trip,return_date)",
+          "refId": "PrometheusVariableQueryEditor-VariableQuery"
+        },
+        "refresh": 1,
+        "regex": "",
+        "skipUrlSync": false,
+        "sort": 0,
+        "type": "query"
+      }
+    ]
+  },
+  "time": {
+    "from": "now-2d",
+    "to": "now"
+  },
+  "timeRangeUpdatedDuringEditOrView": false,
+  "timepicker": {},
+  "timezone": "browser",
+  "title": "Flight",
+  "uid": "fdwys11ydjta8a",
+  "version": 29,
+  "weekStart": ""
+}
