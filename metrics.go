@@ -14,7 +14,7 @@ var (
 		ConstLabels: map[string]string{},
 	}, []string{
 		"departure_airport", "arrival_airport", "outbound_date", "return_date",
-		"outbound_departure_time", "outbound_arrival_time", "outbound_duration", "outbound_airline_name", "outbound_metadata",
-		"return_departure_time", "return_arrival_time", "return_duration", "return_airline_name", "return_metadata",
+		"outbound_departure_time", "outbound_arrival_time", "outbound_duration", "outbound_airline_name", "outbound_flight_numbers",
+		"return_departure_time", "return_arrival_time", "return_duration", "return_airline_name", "return_flight_numbers",
 	})
 )

@@ -235,14 +235,14 @@ func run() {
 							syntax.If(outboundDurDay > 0, fmt.Sprintf("(+%d)", int64(outboundDurDay)), ""),
 						offer.FlightDuration.String(),
 						strings.Join(AllAirlineName(outboundFlights), " & "),
-						strings.Join(AllMetadata(outboundFlights), "\n"),
+						strings.Join(AllFlightNumber(outboundFlights), " - "),
 						// return
 						returnFlights[0].DepTime.Format(time.TimeOnly),
 						returnFlights[len(returnFlights)-1].ArrTime.Format(time.TimeOnly)+
 							syntax.If(returnDurDay > 0, fmt.Sprintf("(+%d)", int64(returnDurDay)), ""),
 						offer.ReturnFlightDuration.String(),
 						strings.Join(AllAirlineName(returnFlights), " & "),
-						strings.Join(AllMetadata(returnFlights), "\n"),
+						strings.Join(AllFlightNumber(returnFlights), " - "),
 					).Set(offer.Price)
 				}
 			}))
