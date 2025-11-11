@@ -24,7 +24,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "hcTeMm27k"
+        "uid": "${datasource}"
       },
       "description": "",
       "fieldConfig": {
@@ -263,7 +263,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "hcTeMm27k"
+            "uid": "${datasource}"
           },
           "editorMode": "code",
           "expr": "flight_google_round_trip{\r\n  departure_airport=~\"$departure_airport\",\r\n  arrival_airport=~\"$arrival_airport\",\r\n  outbound_date=~\"$outbound_date\",\r\n  return_date=~\"$return_date\",\r\n}",
@@ -346,7 +346,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "hcTeMm27k"
+        "uid": "${datasource}"
       },
       "description": "",
       "fieldConfig": {
@@ -442,7 +442,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "hcTeMm27k"
+            "uid": "${datasource}"
           },
           "editorMode": "code",
           "expr": "flight_google_round_trip{\r\n  departure_airport=~\"$departure_airport\",\r\n  arrival_airport=~\"$arrival_airport\",\r\n  outbound_date=~\"$outbound_date\",\r\n  return_date=~\"$return_date\",\r\n}",
@@ -464,13 +464,27 @@
     "list": [
       {
         "current": {
+          "text": "xm1",
+          "value": "fecwh6emwk268d"
+        },
+        "includeAll": false,
+        "label": "Datasource",
+        "name": "datasource",
+        "options": [],
+        "query": "prometheus",
+        "refresh": 1,
+        "regex": "",
+        "type": "datasource"
+      },
+      {
+        "current": {
           "selected": false,
           "text": "XMN",
           "value": "XMN"
         },
         "datasource": {
           "type": "prometheus",
-          "uid": "hcTeMm27k"
+          "uid": "${datasource}"
         },
         "definition": "label_values(flight_google_round_trip,departure_airport)",
         "hide": 0,
@@ -498,7 +512,7 @@
         },
         "datasource": {
           "type": "prometheus",
-          "uid": "hcTeMm27k"
+          "uid": "${datasource}"
         },
         "definition": "label_values(flight_google_round_trip,arrival_airport)",
         "hide": 0,
@@ -526,7 +540,7 @@
         },
         "datasource": {
           "type": "prometheus",
-          "uid": "hcTeMm27k"
+          "uid": "${datasource}"
         },
         "definition": "label_values(flight_google_round_trip,outbound_date)",
         "hide": 0,
@@ -554,7 +568,7 @@
         },
         "datasource": {
           "type": "prometheus",
-          "uid": "hcTeMm27k"
+          "uid": "${datasource}"
         },
         "definition": "label_values(flight_google_round_trip,return_date)",
         "hide": 0,
@@ -583,8 +597,7 @@
   "timeRangeUpdatedDuringEditOrView": false,
   "timepicker": {},
   "timezone": "browser",
-  "title": "Flight",
-  "uid": "fdwys11ydjta8a",
+  "title": "FlightMetrics",
   "version": 29,
   "weekStart": ""
 }
